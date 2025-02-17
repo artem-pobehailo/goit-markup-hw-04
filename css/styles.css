@@ -91,7 +91,6 @@ button {
   padding: 24px 0;
   position: relative;
   display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .studio {
   color: #404bbf;
@@ -130,7 +129,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-logo {
@@ -179,12 +177,11 @@ button {
   border-radius: 4px;
   min-width: 169px;
   height: 56px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
   background-color: #404bbf;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .skills {
   padding-bottom: 120px;
@@ -243,10 +240,8 @@ button {
   justify-content: center;
   flex-shrink: 0;
   align-self: flex-end;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links-li {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links .link-icon {
   display: flex;
@@ -256,6 +251,7 @@ button {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links .link-icon:hover,
 .social-links .link-icon:focus {
@@ -380,7 +376,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   padding: 40px 32px;
 }
 .portfolio-li-div:hover .overlay {
@@ -438,11 +434,9 @@ button {
 }
 .footer-ul {
   display: flex;
-  
 }
 .footer-text-li {
   display: block;
-   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer .container {
   display: flex;
@@ -467,9 +461,11 @@ button {
   margin-bottom: 16px;
 }
 
- .footer-ul {
+.footer-ul {
   gap: 16px;
 }
 .footer-ul .link-icon:hover,
 .footer-ul .link-icon:focus {
   background-color: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
