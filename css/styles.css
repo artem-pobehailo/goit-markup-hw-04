@@ -238,8 +238,7 @@ button {
   display: flex;
   gap: 24px;
   flex-wrap: nowrap;
-  padding-right: 16px;
-  padding-left: 16px;
+
   justify-content: center;
   flex-shrink: 0;
   align-self: flex-end;
@@ -288,7 +287,6 @@ button {
 .team-div {
   padding: 32px 0;
   text-align: center;
-  background: #f4f4fd;
 }
 .title {
   font-weight: 700;
